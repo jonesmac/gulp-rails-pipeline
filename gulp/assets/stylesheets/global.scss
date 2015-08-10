@@ -1,0 +1,19 @@
+body {
+  background: #dd3435 image-url('gulp.png');
+  font-family: sans-serif;
+}
+
+img {
+  background-color: white;
+  transform: rotate(20deg);
+  //prove autoprefixer works by adding -ms-transform propoerty in rendered css
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
